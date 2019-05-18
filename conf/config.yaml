@@ -1,0 +1,13 @@
+app:
+  name: Awesome App
+  owner: Jigang Duan
+  version: 1.0
+  sitedomain: http://localhost:8080
+
+database:
+  sync: true
+  mysql:
+    master:
+      driver: mysql
+      dataSource: root:root123@/test?charset=utf8
+
